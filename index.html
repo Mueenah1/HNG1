@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG1</title>
+    <link rel="stylesheet" href="hng1.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content" id="main-profile">
+        <article class="profile-card" data-testid="test-profile-card">
+            <div class="profile-card__avatar-container">
+                <figure>
+                    <img 
+                        src="pic.jpg" 
+                        alt="Muinat's Avatar"
+                        class="profile-card__avatar"
+                        data-testid="test-user-avatar"
+                    >
+                </figure>
+            </div>
+            <div class="profile-card__info">
+                <h2 data-testid="test-user-name">AJADI Muinat</h2>
+                <p class="profile-card__bio" data-testid="test-user-bio">
+                    I am a healthcare professional turned software developer with a passion for creating impactful tech solutions. Currently, I am honing my skills in frontend development and aiming to contribute to innovative projects that improve lives.
+                </p>
+                <p class="profile-card__time">
+                    Current Time (ms): <span data-testid="test-user-time"></span>
+                </p>
+                <nav class="profile-card__social-links" aria-label="Social Media">
+                    <ul data-testid="test-user-social-links">
+                        <li><a href="https://x.com/_FabricSurgeon" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/muinatajadi" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+                        <li><a href="https://github.com/Mueenah1" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+                    </ul>
+                </nav>
+                <div class="profile-card__details">
+                    <section data-testid="test-user-hobbies">
+                        <h3>Hobbies</h3>
+                        <ul>
+                            <li>Watching movies</li>
+                            <li>Reading non-academic books</li>
+                            <li>Sewing</li>
+                            <li>Solving Complex Problems</li>
+                        </ul>
+                    </section>
+                    <section data-testid="test-user-dislikes">
+                        <h3>Dislikes</h3>
+                        <ul>
+                            <li>Inefficiency</li>
+                            <li>Complacency</li>
+                            <li>Dishonesty</li>
+                            <li>Poor Communication</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </main>
+    <script src="hng1.js"></script>
+</body>
+</html>
