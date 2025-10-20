@@ -1,7 +1,7 @@
 # HNG1
 HNG 2025 Task-1
 # HNG Internship Stage 1 Task: Multi-Page Portfolio Website
-This project is a multi-page personal portfolio website created as part of the HNG Internship Stage 1 task. It builds upon the initial single-page task by adding two new pages (to [task 1](https://github.com/Mueenah1/HNG0)-Homepage):  an "About Me" page and a "Contact Us" page with client-side form validation. The entire site is designed with a focus on semantic HTML, accessibility, and responsive design.
+This project is a multi-page personal portfolio website created as part of the HNG Internship Stage 1 task. It builds upon the initial single-page task by adding two new pages (to [task 1](https://github.com/Mueenah1/HNG0)-[Homepage](https://mueenah1.github.io/HNG1/)):  an "About Me" page and a "Contact Us" page with client-side form validation. The entire site is designed with a focus on semantic HTML, accessibility, and responsive design.
 ## Live Demo
 - You can view the live version of the project here [HNG](https://mueenah1.github.io/HNG1/)
 ## Features
